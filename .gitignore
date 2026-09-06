@@ -1,0 +1,20 @@
+# Secrets - never commit
+.env
+*.env
+
+# QR code images / any exported credential images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pylibs/
+venv/
+
+# Misc
+.DS_Store
